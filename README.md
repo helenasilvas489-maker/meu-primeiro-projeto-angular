@@ -1,59 +1,30 @@
-# CursoAngularProway
+# 📝 Minha Lista de Tarefas com Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.5.
+Este projeto é um aplicativo de gerenciamento de tarefas (To-Do List) desenvolvido para praticar os fundamentos do framework Angular. A aplicação permite criar, marcar como concluída e excluir tarefas, com os dados sendo salvos diretamente no navegador.
 
-## Development server
+## 🚀 O que eu aprendi e pratiquei:
 
-To start a local development server, run:
+Neste projeto, percorri desde a configuração inicial até a publicação no GitHub, dominando os seguintes conceitos:
 
-```bash
-ng serve
-```
+- **Componentes Standalone**: Estrutura moderna do Angular (v17+) que dispensa o uso de módulos complexos.
+- **Two-way Data Binding (`[(ngModel)]`)**: Sincronização em tempo real entre o que o usuário digita no HTML e a lógica no TypeScript.
+- **Diretivas Estruturais**:
+  - `*ngFor`: Para renderizar a lista de tarefas dinamicamente.
+  - `*ngIf`: Para exibir mensagens condicionais, como "Sua lista está vazia!".
+- **Persistência com LocalStorage**: Uso da API do navegador para salvar as tarefas, garantindo que elas não sumam ao atualizar a página (F5).
+- **Estilização Dinâmica**: Aplicação de estilos CSS (como o texto riscado) baseados no estado da tarefa (concluída ou não).
+- **Interface e Tipagem**: Uso de Interfaces TypeScript para definir a estrutura dos dados das tarefas.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Tecnologias Utilizadas:
 
-## Code scaffolding
+- Angular 17+
+- TypeScript
+- HTML / CSS
+- Git & GitHub
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🏁 Como rodar o projeto:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clone o repositório.
+2. Execute `npm install` para instalar as dependências.
+3. Execute `ng serve` para iniciar o servidor local.
+4. Abra o navegador em `http://localhost:4200`.
